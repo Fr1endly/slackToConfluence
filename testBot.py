@@ -8,6 +8,4 @@ slackClient = WebClient(TOKEN)
 
 bot = Bot(channel=CHANNEL)
 message = bot.getMessage()
-print(message)
-
 slackClient.chat_postMessage(**message)
