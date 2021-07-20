@@ -5,7 +5,7 @@ from slack import WebClient
 from slackeventsapi import SlackEventAdapter
 from bot.Bot import *
 
-TOKEN = 'xoxb-2292519191940-2310009770128-U2Zas1hmt1O70cObjiygQOP9'
+TOKEN = 'xoxb-2292519191940-2310009770128-BvZMNJrGv2a6JjNYsjVgS48a'
 EVENT_TOKEN = '408c3fa28fda01f9eec533d6976d78a9'
 CHANNEL = 'test'
 
@@ -32,4 +32,4 @@ if __name__ == "__main__":
     logger = logging.getLogger()
     logger.setLevel(logging.DEBUG)
     logger.addHandler(logging.StreamHandler())
-    app.run(host='0.0.0.0', port=3000)
+    app.run(host='46.101.20.226', port=3000)
